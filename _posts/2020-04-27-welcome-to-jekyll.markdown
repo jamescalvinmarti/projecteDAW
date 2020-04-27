@@ -20,6 +20,8 @@ La part de back-end instalaré algun plugin per tenir un bon disseny al dashboar
 
 La part de front-end la intentaré definir i estilitzar jo mateix agafant exemples d'altres pàgines amb HTML, CSS, JavaScript i JQuery.
 
+També havia pensat que si em sobra temps podria fer una secció de blog.
+
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
