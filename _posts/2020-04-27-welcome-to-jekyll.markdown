@@ -1,28 +1,24 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Projecte de final de curs!"
 date:   2020-04-27 16:13:46 +0200
-categories: jekyll update
+categories: laravel immobiliaria projecte
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Bàsicament jo havia pensat en fer una pàgina web de una immobiliaria amb les diferents seccions: venda,
+lloguer… I amb les diferents categories: finca, pis, casa, masia…
+Hi hauria a la pàgina principal una zona per poder filtrar també per zona i per preu. Una secció de
+contacte, i per cada propietat tota la informació i diferents imatges.
 
-Jekyll requires blog post files to be named according to the following format:
+Hi hauria un dashboard per poder crear, editar i revisar o eliminar la informació que només seria
+accessible per l’usuari administrador i seria invisible a la part del client.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+Havia pensat de fer tota la web tant front-end com back-end amb Laravel perquè se'm dona bé i amb els frameworks de front-end com Angular i Vue no em sento comode.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+La base de dades tindria les taules de usuaris, propietats, categories, i imatges. Cada propietat tindria una categoria i una categoria està lligada a moltes propietats. I una propietat pot tenir moltes imatges i una imatge pertany a una propietat.
 
-Jekyll also offers powerful support for code snippets:
+La part de back-end instalaré algun plugin per tenir un bon disseny al dashboard i la part de creació de dades.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+La part de front-end la intentaré definir i estilitzar jo mateix agafant exemples d'altres pàgines amb HTML, CSS, JavaScript i JQuery.
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
